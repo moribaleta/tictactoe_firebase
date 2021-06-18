@@ -1,0 +1,45 @@
+
+
+
+.entry-row {
+
+}
+
+.entry-item {
+    height : 150px;
+    padding: 20px;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.entry-content {
+    display: flex;
+    flex-direction: column;
+    flex : 1;
+    flex-shrink: 1;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    background-color: lightgray;
+    border-width: 0;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0px;
+}
+
+.entry-content:hover {
+    border-radius: 10px;
+    box-shadow: -3px 8px 18px 0px rgba(0,0,0,0.52);
+    -webkit-box-shadow: -3px 8px 18px 0px rgba(0,0,0,0.52);
+    -moz-box-shadow: -3px 8px 18px 0px rgba(0,0,0,0.52);    
+}
+
+
+.entry-player1 {
+    background-color: coral;
+}
+
+.entry-player2 {
+    background-color: mediumspringgreen;
+}
